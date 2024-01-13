@@ -33,24 +33,30 @@ a {
 }
 
 .tm-color-primary {
-  color: #069;
+  color: rgb(223, 230, 233);
 }
 
 .tm-color-gray {
-  color: #333;
+  color: #f1e7e7;
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(6, 99, 32, 0.3);
+  background-color: rgba(7, 71, 36, 0.5);
+ 
 }
 
 .tm-bg-white-transparent {
   background-color: rgba(255, 255, 255, 0.3);
   border: 1px solid white;
+  background-image: url('../img/floral-green.png');
+  
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust as needed */
+  background-position: center center;
 }
 
 .tm-intro {
-  max-width: 500px;
+  max-width: ;
   width: 100%;
   padding: 55px;
   margin-right: 0;
