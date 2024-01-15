@@ -41,10 +41,25 @@ a {
   z-index: index 10;;
 }
 
+/* Default background color for .tm-bg-black-transparent */
 .tm-bg-black-transparent {
   background-color: rgba(4, 37, 14, 0.5);
- 
 }
+
+
+@media (max-width: 767px) {
+  /* Override the background color for .tm-bg-black-transparent for mobile devices */
+  .tm-bg-black-transparent {
+    background-color: black; /* Set your desired color values for mobile */
+    
+  }
+
+  .tm-sidebar-sticky{
+    background-color: black;
+  }
+}
+
+
 
 .tm-bg-white-transparent {
   background-color: rgba(255, 255, 255, 0.3);
