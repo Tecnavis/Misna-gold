@@ -27,7 +27,13 @@ https://templatemo.com/tm-536-dream-pulse
       width: 30px; /* Adjust as needed */
       height: 100%; /* Adjust as needed */
       }
-
+      .video {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        }
     </style>
 
 
@@ -126,10 +132,9 @@ https://templatemo.com/tm-536-dream-pulse
           
           <main role="main" class="ml-sm-auto col-12">
             <div class="parallax-window" data-parallax="scroll">
-              <video autoplay loop muted playsinline width="100%" height="auto">
-                <source src="BG Backround.mp4" type="video/mp4">
-                <!-- You can add additional source elements for different video formats (e.g., webm, ogg) -->
-                Your browser does not support the video tag.
+              <video autoplay muted loop class="tm-video-bg">
+                <source src="./img/BGBakround.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
               </video>
               <div class="tm-section-wrap">
                 <section id="intro" class="tm-section">
