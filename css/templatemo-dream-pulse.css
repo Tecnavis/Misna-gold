@@ -12,11 +12,11 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  background-color: #0f5c26;
+  background-color: #191a19;
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 a {
@@ -50,12 +50,12 @@ a {
 @media (max-width: 767px) {
   /* Override the background color for .tm-bg-black-transparent for mobile devices */
   .tm-bg-black-transparent {
-    background-color: black; /* Set your desired color values for mobile */
+    background-color: rgb(17, 16, 16); /* Set your desired color values for mobile */
     
   }
 
   .tm-sidebar-sticky{
-    background-color: black;
+    background-color: rgb(17, 16, 16);
   }
 }
 
